@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-weight: italic;
+	background: url(images/aboutpic3.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 120vh;
+}
+.btn{
+	margin-top: 5px;
+	display: flex;
+}
+.btn img{
+	width: 40px;
+	margin-right: 25px;
+}
+.container{
+	height: 70vh;
+	width: 40%;
+	background: black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.img{
+	height: 100px;
+	width: 100px;
+	background: url(images\about\us-2.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 50px;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.container h1{
+	color: white;
+	margin-top: 50px;
+	font-family: 'Kaushan Script',cursive;
+
+}
+.container p{
+	font-size: 28px;
+	color: white;
+	font-family: 'Kaushan Script',small;
+}
